@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.calendargo.ManageEvent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="Manage Events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-smallcaps" />
+
+        <ListView
+            android:id="@+id/my_event_list_view"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"></ListView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="About"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps" />
+
+            <TextView
+                android:text="This application was developed for CSE 110 Fall 2016 at UC San Diego under the supervision of Professor Gregory Kesden. This app is designed to serve as a hub for all events and activities in your surroundings. You can use this app to view  events around you  on an interactive map and calendar. You also have the option of creating events at any date or time or adding events you wish to attend, to your calendar. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="CalendarGo is the ultimate community-driven tool which adapts best to your hectic schedule at University!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

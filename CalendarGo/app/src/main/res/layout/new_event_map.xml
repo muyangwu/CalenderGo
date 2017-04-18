@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drag_map_layout"
+    android:layout_margin="10dp">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        tools:context="com.example.apple.calendargo.MapFragment" />
+
+    <Button
+        android:text="confirm location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_confirm"
+        android:layout_gravity="bottom"/>
+</android.support.design.widget.CoordinatorLayout>

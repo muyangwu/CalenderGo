@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "166118314100",
+    "firebase_url": "https://cse110test-60de4.firebaseio.com",
+    "project_id": "cse110test-60de4",
+    "storage_bucket": "cse110test-60de4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166118314100:android:6011f6c96fdb8ad0",
+        "android_client_info": {
+          "package_name": "com.example.apple.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166118314100-bi9u4mutssub28sj39c7ses4p5vok8t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_xLXkkl2uK2frw5tUOsNrmNtNIpktbBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166118314100:android:6bc83c45a84e1338",
+        "android_client_info": {
+          "package_name": "com.example.apple.calendargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166118314100-bi9u4mutssub28sj39c7ses4p5vok8t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_xLXkkl2uK2frw5tUOsNrmNtNIpktbBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

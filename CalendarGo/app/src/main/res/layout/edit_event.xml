@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Edit Event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:text="Organizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/organizer"
+                android:text="Event organizer"
+                android:selectAllOnFocus="true" />
+
+            <TextView
+                android:text="Event name "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/eventName"
+                android:selectAllOnFocus="true"
+                android:text="Event name"/>
+
+            <TextView
+                android:text="Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:maxLength="2"
+                    android:ems="10"
+                    android:id="@+id/month"
+                    android:hint="MM"
+                    android:layout_width="50dp"
+                    android:selectAllOnFocus="true" />
+
+                <TextView
+                    android:text="/"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView28"
+                    android:textSize="20sp"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/day"
+                    android:hint="DD"
+                    android:inputType="date"
+                    android:maxLength="2"
+                    android:layout_width="50dp"
+                    android:selectAllOnFocus="true" />
+
+                <TextView
+                    android:text="/"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView30"
+                    android:textSize="20sp"
+                    android:layout_weight="0.00"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/year"
+                    android:hint="YYYY"
+                    android:maxLength="4"
+                    android:layout_width="75dp"
+                    android:inputType="date"
+                    android:selectAllOnFocus="true" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="textCapSentences|textMultiLine"
+                android:ems="10"
+                android:id="@+id/description"
+                android:text="Event description"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:autoLink="all"
+                android:lines="5"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:scrollbars="none"
+                android:layout_height="100dp"
+                android:selectAllOnFocus="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="CANCEL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button10"
+                    android:layout_weight="0.19" />
+                <Button
+                    android:text="SAVE CHANGES"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button13" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Delete Event"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/deleteEvent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

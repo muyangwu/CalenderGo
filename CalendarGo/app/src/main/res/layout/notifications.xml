@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Manage your notifications"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.06">
+
+                <Switch
+                    android:text="Push notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/switch1"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:splitTrack="false"
+                    android:checked="true" />
+
+                <TextView
+                    android:text="Notify when changes are made to subscribed events"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16" />
+
+                <Switch
+                    android:text="Debug messages"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/switch5"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:splitTrack="false"
+                    android:checked="true" />
+
+                <TextView
+                    android:text="Messages for testing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17" />
+
+                <Switch
+                    android:text="Notify on menu focus"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/switch4"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:splitTrack="false"
+                    android:checked="true" />
+
+                <TextView
+                    android:text="Show a message when each menu is focused"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView18" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="BACK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button7" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
